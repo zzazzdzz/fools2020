@@ -1,0 +1,13 @@
+0000:
+    textbox Err
+    end
+
+textbox Err {
+    Undefined script 0x%SCRIPT_ID%.
+
+    Is that a bug?
+    Or are you just a hacker?
+
+    If you think this is a bug,
+    please let me know!
+}

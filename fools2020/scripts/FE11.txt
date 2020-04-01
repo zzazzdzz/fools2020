@@ -1,0 +1,37 @@
+
+FE11:
+    textbox Q1
+    yesno
+    iffalse FE11_Quit
+    textbox Q2
+    yesno
+    iffalse FE11_Quit
+    textbox Nope
+    end
+
+FE11_Quit:
+    textbox GiveUp
+    end
+
+textbox Q1 {
+    Good morning!
+    I am <B>Mesprit</B>.
+    
+    What can I help you with
+    today?
+}
+
+textbox Q2 {
+    Do you really need help
+    with anything?
+}
+
+textbox Nope {
+    I can't help you with
+    anything right now.
+}
+
+textbox GiveUp {
+    Ok then.
+}
+

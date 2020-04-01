@@ -1,0 +1,30 @@
+
+cond event TEST_EVENT_A {
+
+    effects {
+        clearevent TEST_EVENT_A
+    }
+
+    showtext EventIsSet
+    end
+
+    textbox EventIsSet {
+        Yay! This event is set!
+    }
+
+}
+
+cond !event TEST_EVENT_A {
+
+    effects {
+        setevent TEST_EVENT_A
+    }
+
+    showtext EventNotSet
+    end
+
+    textbox EventNotSet {
+        Oh noes, event not set...
+    }
+
+}

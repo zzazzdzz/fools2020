@@ -1,0 +1,52 @@
+; automatically created with 18to20
+
+[MapHeader]
+identifier = 0x0101
+tileset = OVERWORLD
+width = 6
+height = 6
+palette = PAL_ROUTE
+musicid = 1
+musicbank = AUDIO_3
+borderblock = 15
+
+[Connections]
+north = 0x0101, 0, 11
+south = 0x0101, 0, 0
+west = 0x0101, 0, 11
+east = 0x0101, 0, 0
+
+[Warp_0]
+x = 5
+y = 1
+targetx = 4
+targety = 7
+connectedmapid = 0x0169
+
+[Sign_0]
+x = 7
+y = 4
+textid = 0x02
+
+[Sign_1]
+x = 4
+y = 4
+textid = 0x03
+
+[Object_0]
+pictureid = SPRITE_LASS
+x = 7
+y = 2
+movement = STAY
+movementpattern = NONE
+textid = 0x01
+
+[TextPointers]
+text1 = 0xfea0
+text2 = 0xfea1
+text3 = 0xfea2
+
+[Sources]
+blocks = 0101_TestMap.blk
+connectionpreview = 0101_TestMap.rs
+

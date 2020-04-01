@@ -1,0 +1,49 @@
+; automatically created with 18to20
+
+[MapHeader]
+identifier = 0x1001
+tileset = OVERWORLD
+width = 14
+height = 14
+palette = PAL_PEWTER
+musicid = $ff
+musicbank = $02
+borderblock = 0
+
+[Connections]
+north = 0x0000, 0, 0
+south = 0x0000, 0, 0
+west = 0x0000, 0, 0
+east = 0x0000, 0, 0
+
+[Object_0]
+pictureid = SPRITE_RED
+x = 19
+y = 7
+movement = STAY
+movementpattern = NONE
+textid = 0x01
+
+[Object_1]
+pictureid = SPRITE_RED
+x = 7
+y = 17
+movement = STAY
+movementpattern = NONE
+textid = 0x02
+
+[Object_2]
+pictureid = SPRITE_RED
+x = 11
+y = 11
+movement = STAY
+movementpattern = NONE
+textid = 0x03
+
+[TextPointers]
+text1 = 0x0000
+
+[Sources]
+blocks = 1001_T1.blk
+connectionpreview = 1001_T1.rs
+

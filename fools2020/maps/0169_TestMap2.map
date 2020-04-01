@@ -1,0 +1,47 @@
+; automatically created with 18to20
+
+[MapHeader]
+identifier = 0x0169
+tileset = HOUSE
+width = 4
+height = 4
+palette = PAL_ROUTE
+musicid = MUSIC_CELADON
+musicbank = AUDIO_1
+borderblock = 10
+
+[Connections]
+north = 0x0000, 0, 0
+south = 0x0000, 0, 0
+west = 0x0000, 0, 0
+east = 0x0000, 0, 0
+
+[Warp_0]
+x = 4
+y = 7
+targetx = 5
+targety = 2
+connectedmapid = 0x0101
+
+[Warp_1]
+x = 5
+y = 7
+targetx = 5
+targety = 2
+connectedmapid = 0x0101
+
+[Object_0]
+pictureid = SPRITE_DAISY
+x = 5
+y = 3
+movement = STAY
+movementpattern = NONE
+textid = 0x01
+
+[TextPointers]
+text1 = 0xfe11
+
+[Sources]
+blocks = 0169_TestMap2.blk
+connectionpreview = 0169_TestMap2.rs
+

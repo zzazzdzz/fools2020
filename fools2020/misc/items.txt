@@ -1,0 +1,302 @@
+﻿=====_____=====_
+
+1 Small Dagger
++5% Attack
+
+2 Lesser Wand
++5% Special Attack
+
+3 Chainmail
++5% Defense
+
+4 Magic Cloak
++5% Special Defense
+
+5 Wooden Shield
++5% Evasion
+
+6 Sharpshooter Gem
++5% Accuracy
+
+7 Ring of Vitality
++5% Health
+
+8 Pointed Needle
++3% Critical Strike Chance
+
+9 Nintendium Shard
+This item has no innate stats.
+"The most durable element"
+
+10 Sharp Spear
++7% Critical Strike Chance
+4x spike
+
+11 Longsword
++20% Attack
+3x dagger
+
+12 Greater Wand
++20% Special Attack
+3x wand
+
+13 Armored Vest
++20% Defense
+3x mail
+
+14 Sorcerer's Cap
++20% Special Defense
+3x cloak
+
+15 Guardian Aegis
++20% Evasion
+3x shield
+
+16 Precision Charm
++20% Accuracy
+3x gem
+
+17 Giant Strength
++20% Health
+3x ring
+
+18 Mr. Balls
++20% Health
++20% Defense
+Unique Effect: This item grants additional +20% Defense and +20% Special Defense.
+"AtGames would be proud"
+
+19 Daikatana
++40% Attack
++20% Accuracy
+Unique Effect: Owner's physical attacks deal additional physical damage equal to 10% of the target's maximum health. Owner's special attacks have an additional 50% Accuracy bonus.
+
+20 Edge of Duality
++20% Attack
++20% Special Attack
++10% Accuracy
+Effect: Owner's attacks deal 50% physical and 50% special damage, regardless of attack type. (50% of damage is calculated based on the attacker's Attack and defender's Defense, and 50% is calculated based on Special Attack and Special Defense. Attack type remains unchanged; physical attacks will not trigger item effects for special attacks)
+
+21 Rowhammer
++40% Attack
++20% Health
+Effect: At the end of your turn, the owner increases a random stat by either 4%, 8%, 16% or 32%.
+"Sometimes you just gotta change a bit"
+2x longsword 1x strength 1x shard
+
+22 The Glitchodia
++20% Defense
++20% Special Defense
+Unique Effect: At the end of your turn, randomly replace one of the owner's active items except Glitchodia with either 1F, 2F, 3F or 4F.
+Effect: At the end of your turn, if the owner has 1F, 2F, 3F and 4F in addition to Glitchodia, you win the battle.
+"What does Pot of Greed do?"
+1x vest 1x cape 4x shard
+
+23 Ed's Lucky Cheese
++20% Health
++20% Evasion
+Unique Effect: When below 30% health, all opponent's attacks have 40% chance to miss in addition to normal Evasion effects. (This additional effect stacks multiplicatively with Evasion.)
+"Stinky hat!"
+
+24 Leftovers
++20% Health
++20% Defense
++20% Special Defense
+Unique Effect: At the end of your turn, restore 10% of the owner's missing health.
+
+25 Reversal Emblem
++20% Attack
++20% Accuracy
++10% Evasion
+Effect: Whenever an opponent inflicts a status ailment, inflict the same status ailment on your opponent.
+"no u"
+
+26 Void Pointer
++15% Critical Strike Chance
++40% Attack
+Unique Effect: Owner's critical hits deal 225% damage instead of 200%.
+
+27 Ball of Spikes
++15% Critical Strike Chance
++40% Defense
+Unique Effect: Owner's critical hits ignore 10% of the opponent's Defense and Special Defense stats.
+
+28 Rod of Supremacy
++20% Health
++40% Special Attack
+Effect: After the owner triggers an item effect, the owner gains additional 2% Defense and 2% Special Defense. This bonus can stack infinitely. (Triggers from Rod of Supremacy will not activate this effect.)
+Effect: After the opponent triggers an item effect, the owner gains additional 2% Attack and 2% Special Attack. This bonus can stack infinitely. (Triggers from Rod of Supremacy will not activate this effect.)
+
+29 Guilty Crown
++20% Defense
++20% Special Defense
+Unique Effect: Whenever receiving damage would reduce your HP to zero, prevent 50% of that damage.
+Effect: At the end of your turn, if Guilty Crown's unique effect has been triggered at least 5 times in total, you win the battle.
+"Omae wa mou shindeiru"
+
+30 Scope Lens
++15% Critical Strike Chance
++40% Accuracy
+Effect: Owner's critical hits cannot miss due to Accuracy and Evasion. (However, move accuracy still applies.)
+
+31 Razor Claw
++15% Critical Strike Chance
++40% Special Attack
+Effect: Whenever an owner's attack critically strikes, owner gains additional 5% Evasion. This bonus can stack infinitely.
+
+32 Absorption Staff
++40% Special Attack
++20% Defense
+Effect: Special attacks heal for 20% of damage dealt.
+
+33 Expert Belt
++40% Attack
++20% Special Attack
+Unique Effect: Super-effective moves deal 250% damage instead of 200%. Not-very-effective moves deal 33% damage instead of 50%. Ineffective moves deal 10% damage instead of 20%. (These effects happen both for the opponent and the item owner.)
+
+34 Hot Potato
++10% Accuracy
++10% Evasion
+Unique Effect: Whenever the owner is dealt damage, replace one of the attacker's items with Hot Potato. (The replaced item is chosen randomly.)
+Unique Effect: The owner gains 5% Attack and Special Attack reduction for each item named Hot Potato in their inventory. (This reduction stacks additively.)
+
+35 Choice Band
++100% Attack
++100% Special Attack
+Effect: The owner can only use their first move selected in battle. (All other moves will fail.)
+
+36 Life Orb
++20% Attack
++20% Special Attack
+Effect: Owner's attacks deal 30% increased damage. (Damage is increased after applying opponent's resistances, stat changes and item effects)
+Effect: At the end of your turn, owner takes damage equal to 10% of their maximum health. This damage can't be prevented and cannot trigger item effects.
+
+37 Lagging Tail
++60% Defense
++40% Special Defense
++20% Evasion
+Effect: The owner's opponent always gets the first strike. (Two Pokémon with Lagging Tail cancel each other's effects.)
+
+38 Focus Sash
++20% Defense
++20% Special Defense
+Effect: The owner has a 10% chance of surviving an attack that would otherwise cause fainting. Chance increases to 80% if the owner has full HP. (The owner survives with 1 HP.)
+
+39 Brightpowder
++20% Evasion
++20% Health
+Unique Effect: This item grants additional +40% Evasion.
+
+40 King's Rock
++20% Defense
++20% Special Defense
++20% Health
+Unique Effect: The owner's attacks have a 20% chance of flinching the target. (If the attack already has a chance of flinching the target, this bonus stacks multiplicatively.)
+
+41 Eviolite
++40% Defense
++40% Special Defense
+Unique Effect: If the owner is not fully evolved, increase Defense and Special Defense by 50%. (Multiplicative increase.)
+
+42 Rock of Throw
++40% Evasion
++20% Health
+Effect: Whenever an opponent misses a damaging move, they take special damage equal to 10% of their maximum health. 
+"Scrafty is weak to dying"
+
+43 Stealth Pebbles
++20% Health
++40% Special Defense
+Unique Effect: Whenever a Pokémon is sent out on the opponent's side, deal 15% of its maximum health as physical damage.
+"Hopefully this item won't dominate the meta"
+
+44 Wumbotizer
++20% Accuracy
++20% Special Attack
+Effect: Whenever the owner successfully uses a damaging move, gain a Back-to-Back stack.
+Effect: Whenever the owner successfully uses a non-damaging status move, lose all Back-to-Back stacks.
+Unique Effect: If you have more than 1 Back-to-Back stack, gain +30% Attack and +30% Special Attack. If you have more than 3 Back-to-Back stacks, gain additional +30% Attack and +30% Special Attack.
+"The Tetris player is at a slight disadvantage"
+
+45 Scrabble Board
++20% Special Attack
++20% Special Defense
+Effect: All moves deal additional 1% damage for every unique letter in their names. (Spaces are not letters.)
+
+46 Rod of Elements
++20% Special Attack
++40% Evasion
+Unique Effect: Whenever any move of a certain type is first used in battle, gain a stack of Elemental Magic. Stacks of Elemental Magic can be gained for types: Normal, Fighting, Flying, Poison, Fire, Water, Grass, Electric, Psychic, Ice, Ground, Rock, Bug, Ghost, Dragon.
+Unique Effect: Gain additional +10% Special Attack and +10% Attack for each stack of Elemental Magic.
+Effect: At the end of your turn, if you have at least 7 stacks of Elemental Magic, you win the battle.
+
+47 Ultimate Bepis
++20% Attack
++20% Health
+Unique Effect: Whenever the owner uses a non-damaging move, gain +8% Special Attack. This bonus can stack infinitely.
+Unique Effect: Whenever the owner uses a damaging move, gain +8% Defense. This bonus can stack infinitely.
+Unique Effect: Whenever the owner lands a critical hit, gain +6% Critical Strike Chance. This bonus can stack infinitely.
+Unique Effect: Whenever the owner dodges an attack, gain +4% Evasion and +4% Accuracy. This bonus can stack infinitely.
+Effect: At the end of your turn, gain a stack of Stat Explosion. If you have more than 4 stacks of Stat Explosion, remove all stat gains caused by this item's effects.
+
+48 Delicious Curry
++40% Accuracy
++20% Special Attack
+Effect: The owner's secondary effects of moves have double chances of triggering.
+"Damn it! He's nothing!"
+
+49 The Flag
++20% Attack
++20% Special Attack
++20% Accuracy
+Effect: At the end of your turn, if you are fighting against a non-boss NPC, you win the battle.
+"This item is a reward for completing the last challenge in the Chamber of Pwnage"
+
+50 Radical Train
++20% Critical Strike Chance
+Effect: At the beginning of the battle, the owner randomly gains either +60% Attack, +60% Defense, +60% Special Attack or +60% Special Defense.
+"Do I hear Mega Man 2 music?"
+
+51 BPD-8000v2
++50% Evasion
+Unique Effect: All item effects trigger twice.
+"Do they secretly hate me? They probably do. Should I start over and get new friends? I truly hate myself. Wait, I made this entire thing? I'm actually awesome. Sometimes."
+
+52 Star for Effort
+Effect: At the beginning of your turn, transform one of your completed items into another completed item. (Item is completed if it cannot be used to build another item. Star for Effort cannot choose itself.)
+"A reward for finding and solving the Fools2020 warmup challenge"
+
+53 Decearing Egg
++40% Accuracy
++20% Defense
+Effect: Receiving damage from a physical attack decears your opponent, dealing 5% of their current health as special damage, but no less than 1% of their maximum health.
+Effect: Receiving damage from a special attack eco-produces vitality, healing the owner for 5% of their missing health, but no less than 1% of their maximum health.
+"えぐえぐえぐえぐえぐえぐえぐ"
+
+***
+fools2020: tactical showdown
+
+booster names:
+monsters/artifacts/techniques
+
+attack - 12
+special attack - 13
+defense - 11
+special defense - 12
+evasion - 10
+accuracy - 9
+health - 12
+crit - 6
+   
+|||=====_____=====_!
+
+Default move:
+           XXXXXX
+Opening move:
+           XXXXXX
+Enemy has effect:
+           XXXXXX
+On status effect:
+           XXXXXX
+On low health:
+           XXXXXX

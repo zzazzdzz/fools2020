@@ -1,0 +1,18 @@
+e t a o i n s r
+h l d c   ~ ~ ~
+
+1 -> uppercase escape
+2 -> charset A
+3 -> charset B
+
+m f p g w y b v
+k x j q z u ! ?
+
+1 2 3 4 5 6 7 8
+9 , . RA NL SC CL ED
+
+RA -> further escape
+NL -> new line
+SC -> scroll
+CL -> clear textbox
+ED -> end text

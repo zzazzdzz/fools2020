@@ -1,2 +1,2 @@
 # fools2020
-TheZZAZZGlitch's April Fools Event 2020
+TheZZAZZGlitch's April Fools "Event" 2020. Except not really. The event was never finished, and this is just an archive of unused, unfinished stuff. See: https://zzazzdzz.github.io/fools2020/

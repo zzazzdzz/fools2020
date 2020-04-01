@@ -1,0 +1,30 @@
+[Trainer]
+Name = Cooltrainer Bepis
+Class = LANCE
+RewardBP = 123
+RewardCredits = 456
+MonSpecies = CLEFAIRY
+
+[Moveset]
+Move1 = POUND
+Move2 = SLAM
+Move3 = .
+Move4 = .
+
+[Tactics]
+DefaultMove = 0
+OpeningMove = 0
+OnLowHealth = 0
+OnOwnStatusEffect = 0
+OnEnemyLowHealth = 0
+OnEnemyStatusEffect = 0
+
+[Inventory]
+Slot1 = NONE
+Slot2 = DECEARING_EGG
+Slot3 = NONE
+Slot4 = NONE
+Slot5 = NONE
+Slot6 = NONE
+Slot7 = LIFE_ORB
+Slot8 = NONE

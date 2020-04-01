@@ -1,0 +1,44 @@
+[MapHeader]
+Identifier = 0x0101
+Width = 5
+Height = 5
+Tileset = OVERWORLD
+BorderBlock = 10
+Palette = 3
+MusicID = MUSIC_PALLET_TOWN
+MusicBank = AUDIO_1
+
+[MapConnections]
+North = 0x0101, 0, 9
+South = 0x0101, 0, 0
+West = 0x0101, 0, 9
+East = 0x0101, 0, 0
+
+[Sources]
+Blocks = 0101.blk
+ConnectionPreview = 0101.rs
+
+[TextPointers]
+Text1 = 0x1234
+Text2 = 0xfeed
+
+[Warp_0]
+X = 7
+Y = 1
+TargetX = 2
+TargetY = 6
+ConnectedMapID = 0x0130
+
+[Sign_0]
+X = 2
+Y = 2
+TextID = 1
+
+[Object_0]
+X = 1
+Y = 1
+Movement = STAY
+MovementPattern = NONE
+PictureID = SPRITE_ROCKET
+TextID = 2
+

@@ -1,0 +1,28 @@
+
+Shattering the Barrier
+*
+standard "bypass the obstacle" challenge
+
+Hidden Land
+*
+standard "load a hidden map" challenge
+
+System Call: Inspect Command List
+*
+a small debug menu written in the game's scripting engine
+most of the options are blocked
+reverse the scripting engine, enumerate all debug menu scripts and investigate them
+figure out that check for permissions in "grant privileges" code is missing
+call the "grant privileges" script
+use the debug menu to advance to the next task
+
+Real ACE hours
+*
+use rce to steal an item from another player's account
+rce in nickname parsing
+nicknames stored one after the other, separated by $50
+if $50 is in the nickname desync and starts running nicknames as battle script, some invalid command leads to code exec from nickname
+construct code in nickname, only allow A-Z and certain specials
+no control flow instructions, the plan: use sp to write to memory and overwrite some dma hijacking ptr
+point to some trade init code
+verification of the challenge via headless gb emulator (just like xss tasks in ctfs)

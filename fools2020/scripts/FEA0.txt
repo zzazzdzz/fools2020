@@ -1,0 +1,52 @@
+
+FEA1:
+    textbox Question
+    yesno
+    iftrue FEA1_OnTrue
+    textbox IfFalse
+    waitbutton
+    callscript 0xFEA0
+FEA1_OnTrue:
+    textbox IfTrue
+    waitbutton
+    closetext
+    delay 50
+    opentext
+    textbox PreBattleText
+    waitbutton
+    startbattle 0x1234
+    textbox PostBattleText
+    end
+
+textbox Question {
+    Hello!
+    Do you like bepis?
+}
+
+textbox IfFalse {
+    Oh really?
+
+    I thought everyone likes
+    bepis!
+
+    Well, I'm just gonna ask
+    you again...
+}
+
+textbox IfTrue {
+    Great!
+    I like bepis too!
+
+    Bepis is sooo bepis!
+    I like it so much!
+}
+
+textbox PreBattleText {
+    OK, enough with the delay.
+    Let's battle!
+}
+
+textbox PostBattleText {
+    That was a fun battle.
+    Thank you for your time.
+}

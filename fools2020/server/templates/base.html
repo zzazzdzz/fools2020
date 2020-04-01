@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>{% block title %}{% endblock %} - Fools2020: Tactical Showdown</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Fools2020</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            {% if g.session.username %}
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('bepis') }}">Play</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('bepis') }}">Inventory (0)</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('bepis') }}">Reports (0)</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('bepis') }}">Rankings</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Log out ({{ g.session.username }})</a></li>
+            {% else %}
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('login') }}">Log In</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
+            {% endif %}
+        </ul>
+    </div>
+</nav>
+
+<div class="j-container j-container-mult">
+<table style="width:100%">
+<tr><td>
+    Incoming encounters:
+    <span class="j-tally">0</span>
+    <span class="j-explain">Players might challenge you to a battle. Attacks arrive after some amount of time, giving you a chance to prepare. Go to the <a href='#'>Battle</a> tab to challenge other players!</span>
+</td><td>
+    Battle Points:
+    <span class="j-tally">69</span>
+    <span class="j-explain">The measure of your battle prowess. Play the game and defeat other players to earn Battle Points and climb <a href="#">the ranking</a>.</span>
+</td><td>
+    Credits:
+    <span class="j-tally">69</span>
+    <span class="j-explain">Earn credits by playing the game and winning battles. Spend credits to <a href="#">buy components</a> and create <a href="#">powerful items</a> to help you become stronger.</span>
+</td><td>
+    Score:
+    <span class="j-tally">69</span>
+    <span class="j-explain">Secure your position on <a href="#">the leaderboard</a> by completing in-game quests, obtaining <a href="#">achievements</a> and increasing your score.</span>
+</td></tr>
+</table>
+</div>
+
+<div class="j-container j-container-mult">
+    <p>Are you ready for a brand new adventure?<br>
+    Start playing immediately in any HTML5-compatible browser without any further setup, or download this <a href="#">Pokémon Red save file</a> and load it in BGB.</p>
+    <button class="btn btn-primary" onclick='window.location="online/"'>
+        Play online in your browser
+    </button> &nbsp;
+    <button class="btn btn-primary" onclick='window.location="desktop/"'>
+        Instructions for BGB emulator
+    </button>
+</div>
